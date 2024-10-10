@@ -1,3 +1,8 @@
 body {
-    background: greenyellow;
+    background: limegreen;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
 }
