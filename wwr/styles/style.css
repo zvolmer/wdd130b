@@ -1,9 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+
+.home-title {
+    font-family: "Oswald";
+    font-size: 2em;
+    margin-top: 10px;
+}
+
 body {
     background-color: white;
+    font-family: Open-Sans, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
     background-color: #154467;
+    font-family: "Oswald";
 }
 
 #content {
@@ -15,11 +31,16 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
     background-color: #E7C24F;
     color: black;
+}
+
+#hero-msg {
+    background-color: #7dc4d5;
 }
 
 #hero-msg h1 {
@@ -28,6 +49,24 @@ nav a:hover {
 
 #hero-msg h4 {
     text-align: center;
+}
+
+.msg {
+    background-color: #154467;
+    color: white;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg h2 {
+    color: white;
+    font-family: "Oswald";
+}
+
+.msg p {
+    font-size: 0.8em;
+    color: white;
+    padding-bottom: 15px;
 }
 
 .button-box {
@@ -47,6 +86,10 @@ main section {
     background-color: #E7C24F;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -55,23 +98,25 @@ main section {
 }
 
 .join {
-    background-color: #7dc4d5;
+    background-color: #E7C24F;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join:hover {
-    background-color: #154467;
-    color: white;
-}
-
-#hero-msg {
-    background-color: #7dc4d5;
+    background-color: white;
+    color: black;
 }
 
 footer {
     background-color: #154467;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -91,6 +136,10 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .home-title h4 {
     color: black;
 }
@@ -101,8 +150,33 @@ footer p a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .hero-img {
     width: 100%;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #154467;
+}
+
+main section img {
+    box-sizing: border-box;
 }
