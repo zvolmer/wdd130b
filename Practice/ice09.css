@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+}
+
+#wrapper {
+    height: 630px;
+    width: 320px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 210px 320px 100px;
+}
+
+.image {
+    grid-row: 1;
+    width: 100%;
+}
+
+#middle {
+    grid-row: 2;
+}
+
+h1 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    margin-top: -10px;
+}
+
+h2 {
+    color: #3c5c8b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    margin-top: 30px;
+}
+
+.bodyp {
+    color: #978e97;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 1.1em;
+}
+
+footer {
+    background-color: #3c5c8b;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-item:not(:last-child) {
+    border-right: 1px solid white;
+}
+
+.footerheading {
+    font-size: 1.7em;
+    margin: 15px;
+}
+
+.footerparagraph {
+    font-size: 0.8em;
+    margin-top: -5px;
+}
