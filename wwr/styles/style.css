@@ -247,6 +247,101 @@ main section img {
     box-sizing: border-box;
 }
 
+.riversgrid {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 520px 1fr; 
+    grid-template-rows: repeat(9fr); 
+    gap: 20px; 
+}
+
+.river1, .river2, .river3 {
+    display: contents; 
+}
+
+.salmon {
+    grid-column: 1; 
+    grid-row: 1/4;
+    width: 500px;
+    height: 375px;
+    border: 10px solid #d9c2a3;
+    transition: transform 0.5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.desolation {
+    grid-column: 1; 
+    grid-row: 4/8;
+    width: 500px;
+    height: 375px;
+    border: 10px solid #d9c2a3;
+    transition: transform 0.5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.canyon {
+    grid-column: 1; 
+    grid-row: 8/10;
+    width: 500px;
+    height: 375px;
+    border: 10px solid #d9c2a3;
+    transition: transform 0.5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+
+.river1 h2 {
+    grid-column: 2; 
+    grid-row: 2; 
+}
+
+.river1 p {
+    grid-column: 2; 
+    grid-row: 3/4;  
+    padding-bottom: 70px;
+    padding-right: 5px;
+}
+
+
+.river2 h2 {
+    grid-column: 2; 
+    grid-row: 5; 
+}
+
+.river2 p {
+    grid-column: 2; 
+    grid-row: 6/7; 
+    padding-right: 5px;
+}
+
+
+.river3 h2 {
+    grid-column: 2; 
+    grid-row: 8; 
+    padding-top: 85px;
+}
+
+.river3 p {
+    grid-column: 2; 
+    grid-row: 8/9; 
+    padding-top: 135px; 
+    padding-right: 5px;
+}
+
+
+.riversgrid h2 {
+    margin: 0;
+    font-size: 1.8em;
+    color: #333;
+}
+
+.riversgrid p {
+    margin: 10px 0 0;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #555;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
