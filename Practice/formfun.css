@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    margin-top: 200px;
+    background-color: black;
+}
+
+form {
+    display: inline-block;
+    padding: 1em;
+    border: 15px solid purple;
+    background-color: white;
+  }
+
+  label {
+    font-family: Georgia;
+    font-weight: bold;
+  }
+
+textarea, input {
+    font-family: Georgia;
+}
+
+#firstName, #lastName, #email, #phone, #genre {
+    box-shadow: 2px 2px black;
+}
+
+#genre {
+    font-family: Georgia;
+}
+
+button {
+    font-family: Georgia;
+}
