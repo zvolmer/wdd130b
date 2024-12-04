@@ -1,0 +1,199 @@
+@font-face {
+    font-family: DK Longreach;
+    src: url("../Fonts/DK Longreach.otf");
+}
+
+@font-face {
+    font-family: NeoRetroFill;
+    src: url("../Fonts/NEORF___.TTF");
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: white;
+    font-family: "NeoRetroFill";
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #627795;
+    font-family: "DK Longreach";
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 2.5em;
+    padding: 25px;
+}
+
+nav a:hover {
+    background-color: #c3d4b4;
+    color: black;
+}
+
+.logo {
+    width: 100px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+.home-grid {
+    display: block; 
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h1, h2 {
+    font-family: "DK Longreach";
+    font-size: 3em;
+}
+
+.bio {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    text-align: left;
+}
+
+.bioimage {
+    width: 50%;
+    max-width: 600px;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.bio h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.bio p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.music {
+    text-align: center;
+    padding: 20px;
+}
+
+.stream {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.music a {
+    display: inline-block;
+    margin: 10px;
+}
+
+.spotifylink, .applelink, .youtubelink, .amazonlink {
+    width: 150px;
+    transition: transform 0.3s ease;
+}
+
+.spotifylink:hover, .applelink:hover, .youtubelink:hover, .amazonlink:hover {
+    transform: scale(1.1);
+}
+
+.upcomingmusic {
+    text-align: center;
+    padding: 20px;
+}
+
+.upcomingmusic h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.upcomingmusicimage {
+    width: 200%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.upcomingmusic p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.events {
+    display: flex;
+    padding: 20px;
+    text-align: left;
+}
+
+.eventimage {
+    width: 50%;
+    max-width: 600px;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.events h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.events p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #627795;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #c3d4b4;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+.social img {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
