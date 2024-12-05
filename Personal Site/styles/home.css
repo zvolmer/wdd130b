@@ -81,10 +81,10 @@ h1, h2 {
 }
 
 .bioimage {
-    width: 50%;
+    float: left;
     max-width: 600px;
-    margin-right: 20px;
-    flex-shrink: 0;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
 }
 
 .bio h1 {
@@ -134,12 +134,12 @@ h1, h2 {
 .upcomingmusicimage {
     width: 200%;
     max-width: 600px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 .upcomingmusic p {
     font-size: 1.1em;
-    line-height: 1.6;
+    line-height: 0;
 }
 
 .events {
@@ -153,6 +153,10 @@ h1, h2 {
     max-width: 600px;
     margin-right: 20px;
     flex-shrink: 0;
+}
+
+.eventtext {
+    padding-top: 175px;
 }
 
 .events h1 {
