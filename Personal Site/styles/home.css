@@ -201,3 +201,128 @@ footer p a:hover {
     padding-right: 15px;
 }
 
+.contactusgrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contactusgrid h1 {
+    text-align: center;
+    font-family: "DK Longreach";
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.email img {
+    max-width: 80px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.email h2 {
+    font-family: "DK Longreach";
+    font-size: 2.5em;
+    margin: 0;
+    color: #333;
+}
+
+.email p {
+    font-size: 1.2em;
+    color: #555;
+    margin: 0;
+}
+
+.socialmedia {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.socialmedia h2 {
+    font-family: "DK Longreach";
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.socialmedia a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #555;
+    font-size: 1.2em;
+}
+
+.socialmedia a:nth-child(5) {
+    margin-left: -15px;
+}
+
+.socialmedia a img {
+    max-width: 50px;
+    height: auto;
+    margin-right: 15px;
+    transition: opacity 0.3s ease;
+}
+
+.socialmedia a:hover {
+    color: #000;
+}
+
+.socialmedia a:hover img {
+    opacity: 0.8;
+}
+
+footer {
+    background-color: #627795;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #c3d4b4;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+.social img {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.social img:hover {
+    opacity: 0.8;
+}
