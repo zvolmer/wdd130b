@@ -291,6 +291,54 @@ footer p a:hover {
     opacity: 0.8;
 }
 
+main.merchgrid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+main.merchgrid h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 40px;
+}
+
+section.CDs, section.stickers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+    max-width: 1200px;
+    text-align: left;
+}
+
+section.CDs img, section.stickers img {
+    width: 400px;
+    height: auto;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+section.CDs h2, section.stickers h2 {
+    font-size: 2.3em;
+    margin: 0 0 10px;
+}
+
+section.CDs p, section.stickers p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 5px 0;
+}
+
+.hr-line {
+    width: 80%;
+    border-top: 2px solid #627795;
+    margin: 30px auto;
+}
+
 footer {
     background-color: #627795;
     color: white;
